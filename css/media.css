@@ -1,0 +1,499 @@
+.textShadowWhite {
+  text-shadow: -1px 2px 5px #ffffff, 0px 0px 10px #ffffff, 1px 2px 12px #ffffff, 2px 3px 14px #ffffff, 4px 5px 15px #ffffff, 0px 0px 20px #ffffff, 0px 0px 25px #ffffff, 0px 0px 30px #ffffff, 0px 0px 30px #ffffff, 0px 0px 40px #ffffff;
+}
+.textShadowBlack {
+  text-shadow: 0px 0px 10px #4169e1, 0px 0px 12px #4169e1, 2px 3px 14px #6495ed, 0px 0px 15px #6495ed, 0px 0px 20px #87cefa, 0px 0px 25px #87cefa, 0px 0px 30px #87ceeb, 0px 0px 30px #87ceeb, 0px 0px 40px #87ceeb;
+}
+@media (max-width: 1200px) {
+  .drop_modal_form {
+    padding: 10px;
+  }
+  .drop_modal_form .close_wrp > img {
+    width: 25px;
+  }
+  .drop_modal_form .container h3 {
+    margin-top: 50px;
+    font-size: 40px;
+    margin-bottom: 70px;
+  }
+  .drop_modal_form .container form .labels label {
+    box-sizing: border-box;
+    max-width: 28%;
+  }
+  .drop_modal_form .container form .labels label > input {
+    padding-left: 10px;
+    padding-right: 10px;
+    line-height: 34px;
+    font-size: 14px;
+    max-width: 100%;
+  }
+  .drop_modal_form .container form .labels label textarea {
+    line-height: 34px;
+    max-width: 100%;
+    font-size: 14px;
+  }
+  .drop_modal_form .container form .form_btn_wrp .btn_consultation_send_data p {
+    line-height: 34px;
+  }
+  .site_header ul li a {
+    padding-right: 10px;
+  }
+  .site_header .site_logo {
+    margin-left: 5%;
+  }
+  .site_header .site_logo:hover {
+    transform: translateY(60px) rotate(360deg) scale(3.5);
+  }
+  .telegramSection {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .telegramSection .telegramContent {
+    flex-wrap: no-wrap;
+    max-width: 100%;
+  }
+  .shedule {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .shedule .container .sheduleBox .sheduleContent {
+    height: 320px;
+  }
+  .timerSection {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+  .our_teachers_section .our_teachers {
+    padding: 20px;
+    background: none;
+    background-image: none;
+  }
+  .our_teachers_section .our_teachers .our_teachers_text_column {
+    max-width: 100%;
+    padding: 50px 0px;
+  }
+  .our_teachers_section .our_teachers .our_teachers_text_column .our_teachers_text_column_inner_wrp .related_links .our_teachers_link_wrp .our_teachers_link {
+    background-color: transparent;
+  }
+  .our_teachers_section .our_teachers .our_teachers_text_column .our_teachers_text_column_inner_wrp .related_links .our_teachers_link_wrp .our_teachers_inner_link {
+    display: none;
+  }
+  .related_links {
+    overflow: hidden;
+  }
+  .our_projects {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .our_projects .container {
+    flex-wrap: wrap;
+  }
+  .our_projects .container .our_projects_text {
+    width: 100%;
+    max-width: 100%;
+    padding: 20px;
+    margin-bottom: 20px;
+    text-align: center;
+  }
+  .our_projects .container .our_projects_vid {
+    width: 100%;
+    max-width: 100%;
+    display: flex;
+    justify-content: center;
+  }
+  .our_projects .container .our_projects_vid .iframeBox {
+    display: flex;
+    justify-content: center;
+  }
+  .our_projects .container .our_projects_vid .iframeBox iframe {
+    display: inline-block;
+    max-width: 100%;
+    margin: 0 auto;
+  }
+}
+@media (max-width: 900px) {
+  .drop_modal_form {
+    padding: 20px;
+  }
+  .drop_modal_form .container form .labels {
+    display: block;
+  }
+  .drop_modal_form .container form .labels label {
+    max-width: 100%;
+  }
+  .drop_modal_form .container form .labels label > input {
+    margin-bottom: 10px;
+    width: 100%;
+  }
+  .drop_modal_form .container form .labels label textarea {
+    width: 100%;
+  }
+  .shedule {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+  }
+  .shedule .container .sheduleBox .sheduleContent {
+    height: 400px;
+  }
+  .shedule .container .sheduleBox .sheduleContent .contentBox .text {
+    padding: 0 20px;
+  }
+  .site_header ul li a {
+    padding-right: 7px;
+    font-size: 16px;
+  }
+  .site_header .btn_consultation {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .site_header .site_logo {
+    margin-left: 0;
+  }
+  .site_header .site_logo:hover {
+    transform: translateY(40px) rotate(360deg) scale(3);
+  }
+  .telegramSection {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+  .telegramSection .telegramContent {
+    flex-wrap: wrap;
+  }
+  .telegramSection .telegramContent .textContent {
+    width: 100%;
+  }
+  .telegramSection .telegramContent .arrow {
+    align-self: flex-start;
+  }
+  footer {
+    padding: 20px;
+  }
+  footer .container {
+    display: block;
+  }
+  footer .container .copyright {
+    margin-bottom: 20px;
+  }
+  footer .container .copyright img {
+    margin: 0;
+  }
+  footer .container .copyright p {
+    display: none;
+  }
+  footer .container .phone_mail_wrap .first_line {
+    text-align: left;
+  }
+  footer .container .phone_mail_wrap .first_line .phone {
+    cursor: pointer;
+  }
+  footer .container .phone_mail_wrap .copyright_plus_insta {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+  footer .container .phone_mail_wrap .copyright_plus_insta p {
+    display: block;
+  }
+  footer .container .phone_mail_wrap .copyright_plus_insta a img {
+    width: 40px;
+  }
+}
+@media (max-width: 700px) {
+  .site_header ul li a {
+    padding-right: 2px;
+    padding-left: 2px;
+  }
+  .site_header .btn_consultation p {
+    font-size: 15px;
+  }
+  .questions .questionBox > h3 {
+    font-size: 14px;
+  }
+  .questions .questionBox .questionH3 {
+    padding-right: 40px;
+  }
+  .questions .questionBox .questionH3 label:before {
+    right: -20px;
+  }
+}
+@media (max-width: 600px) {
+  body {
+    padding-top: 40px;
+  }
+  .drop_modal_form {
+    top: 40px;
+  }
+  .drop_modal_form .container h3 {
+    margin-top: 30px;
+    font-size: 36px;
+    margin-bottom: 70px;
+  }
+  .drop_modal_form .container form .labels label > input {
+    line-height: 28px;
+    font-size: 14px;
+  }
+  .drop_modal_form .container form .labels label textarea {
+    line-height: 28px;
+  }
+  .drop_modal_form .container form .form_btn_wrp .btn_consultation_send_data {
+    margin-bottom: 30px;
+  }
+  .drop_modal_form .container form .form_btn_wrp .btn_consultation_send_data p {
+    line-height: 28px;
+  }
+  .nav_bar {
+    display: block;
+    transition: all 0.6s ease;
+    position: fixed;
+    z-index: 900;
+    left: 0;
+    right: 0;
+    top: 40px;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+  }
+  .nav_bar.active {
+    transform: none;
+    opacity: 1;
+    visibility: visible;
+  }
+  .nav_bar li {
+    display: block;
+    margin-right: 0px;
+    border-bottom: 1px solid grey;
+    background-color: #fff;
+  }
+  .nav_bar li a {
+    transition: all 0.3s ease;
+    color: #000;
+    padding: 10px;
+    padding-left: 10%;
+    display: block;
+  }
+  .nav_bar li a:hover {
+    color: #00a8ff;
+  }
+  .site_header {
+    background-color: #fff;
+  }
+  .site_header ul {
+    display: none;
+  }
+  .site_header .btn_consultation {
+    display: none;
+  }
+  .site_header .site_logo {
+    margin-left: 5%;
+    height: 40px;
+    position: relative;
+    z-index: 600;
+  }
+  .site_header .site_logo:hover {
+    transform: translateY(20px) rotate(360deg) scale(2);
+  }
+  .site_header .om {
+    height: 40px;
+    display: block;
+  }
+  .site_header .click_menu_wrp {
+    outline: none;
+    cursor: pointer;
+    display: block;
+    margin-right: 5%;
+    position: relative;
+    width: 40px;
+    height: 40px;
+    user-select: none;
+  }
+  .site_header .click_menu_wrp.active .click_menu_img {
+    opacity: 0;
+    visibility: hidden;
+  }
+  .site_header .click_menu_wrp.active .click_menu_img_close {
+    opacity: 1;
+    visibility: visible;
+  }
+  .site_header .click_menu_wrp .click_menu_img {
+    position: absolute;
+    top: 7px;
+    opacity: 1;
+    visibility: visible;
+    width: 40px;
+    transition: all 0.9s ease;
+  }
+  .site_header .click_menu_wrp .click_menu_img_close {
+    position: absolute;
+    top: 9px;
+    left: 7px;
+    transition: all 0.9s ease;
+    opacity: 0;
+    visibility: hidden;
+    width: 25px;
+  }
+  .shedule {
+    padding: 0 20px;
+    padding-top: 50px;
+    background-color: #40cfff;
+  }
+  .shedule .container {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .shedule .container .sheduleBox .sheduleHeader li {
+    width: 150px;
+  }
+  .shedule .container .sheduleBox .sheduleHeader li.backgroundSlide {
+    width: 150px;
+  }
+  .shedule .container .sheduleBox .sheduleHeader li:nth-child(1).active ~ .backgroundSlide {
+    left: 0;
+  }
+  .shedule .container .sheduleBox .sheduleHeader li:nth-child(2).active ~ .backgroundSlide {
+    left: 150px;
+  }
+  .shedule .container .sheduleBox .sheduleContent {
+    height: 500px;
+  }
+  .shedule .container .sheduleBox .sheduleContent .contentBox .text {
+    padding: 0;
+  }
+  .timerSection a {
+    max-width: 80%;
+  }
+  .container {
+    max-width: 100%;
+  }
+  .our_services_text_column {
+    max-width: 100%;
+  }
+  .gallery_section {
+    background-color: #40cfff;
+  }
+  .gallery_section .container {
+    opacity: 1;
+  }
+  .our_services {
+    padding: 0px;
+    background-color: #000;
+  }
+  .our_services .container .our_services_text_column .our_services_text_column_inner_wrp h4 {
+    padding-left: 20px;
+  }
+  .our_services .container .our_services_text_column .our_services_text_column_inner_wrp .read_more {
+    margin-bottom: 50px;
+    margin-left: 10px;
+  }
+  .our_services .container .our_services_text_column .our_services_text_column_inner_wrp .related_links .our_services_link_wrp .our_services_link {
+    background-color: transparent;
+  }
+  .our_services .container .our_services_text_column .our_services_text_column_inner_wrp .related_links .our_services_link_wrp .our_services_link .p_number {
+    padding-left: 20px;
+    padding-right: 10px;
+    font-size: 14px;
+  }
+  .our_services .container .our_services_text_column .our_services_text_column_inner_wrp .related_links .our_services_link_wrp .our_services_link .p_text {
+    font-size: 14px;
+  }
+  .slider_container .wrp_text_appear {
+    left: 15%;
+  }
+  .slider_container .wrp_text_appear #text_appear_1 {
+    padding-left: 40px;
+  }
+  .slider_container .wrp_text_appear #text_appear_1 > span {
+    font-size: 38px;
+  }
+  .slider_container .wrp_text_appear #text_appear_2 {
+    padding-left: 13px;
+  }
+  .slider_container .wrp_text_appear #text_appear_2 > span {
+    font-size: 38px;
+  }
+  .slider_container .wrp_text_appear #text_appear_3 > span {
+    font-size: 38px;
+  }
+  .reloading {
+    background-color: #40cfff;
+  }
+  .reloading .container .soulReloadingBlock {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .telegramSection .telegramContent {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .telegramSection .telegramContent .textContent {
+    text-align: center;
+  }
+  .telegramSection .telegramContent .arrow {
+    padding-right: 15px;
+  }
+  .telegramSection .telegramContent .telegramIcon {
+    max-width: 100px;
+  }
+  .our_projects .container {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .our_projects .our_projects_text .btn_consultation {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .our_teachers_section .our_teachers {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .prices {
+    background-color: #40cfff;
+  }
+  .prices .container {
+    transform: translateX(0);
+    opacity: 1;
+  }
+  .questions {
+    opacity: 1;
+  }
+  body footer .container {
+    transform: translateY(0);
+    opacity: 1;
+  }
+  body footer .container .phone_mail_wrap .first_line {
+    font-size: 30px;
+  }
+  body footer .container .phone_mail_wrap .first_line .phone {
+    font-size: 30px;
+  }
+  body footer .container .phone_mail_wrap .first_line .slash {
+    font-size: 30px;
+  }
+  body footer .container .phone_mail_wrap .mail {
+    font-size: 18px;
+  }
+}
+@media (max-width: 350px) {
+  .telegramSection {
+    padding-left: 20px;
+    padding-right: 20px;
+  }
+  .telegramSection .telegramContent {
+    flex-wrap: wrap;
+  }
+  .telegramSection .telegramContent .arrow svg {
+    max-width: 50px;
+  }
+  .shedule .container .sheduleBox .sheduleHeader li {
+    width: 110px;
+  }
+  .shedule .container .sheduleBox .sheduleHeader li.backgroundSlide {
+    width: 110px;
+  }
+  .shedule .container .sheduleBox .sheduleHeader li:nth-child(1).active ~ .backgroundSlide {
+    left: 0;
+  }
+  .shedule .container .sheduleBox .sheduleHeader li:nth-child(2).active ~ .backgroundSlide {
+    left: 110px;
+  }
+}

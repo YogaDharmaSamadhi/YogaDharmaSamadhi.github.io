@@ -1,0 +1,742 @@
+// out: ../css/media.css
+@import "commonStyles.less";
+
+@media (max-width: 1200px) {
+  //drop form
+  .drop_modal_form {
+    padding: 10px;
+
+    .close_wrp {
+      > img {
+        width: 25px;
+      }
+    }
+
+    .container {
+      h3 {
+        margin-top: 50px;
+        font-size: 40px;
+        margin-bottom: 70px;
+      }
+
+      form {
+        .labels {
+          label {
+            box-sizing: border-box;
+            max-width: 28%;
+
+            > input {
+              padding-left: 10px;
+              padding-right: 10px;
+              line-height: 34px;
+              font-size: 14px;
+              max-width: 100%;
+            }
+
+            textarea {
+              line-height: 34px;
+              max-width: 100%;
+              font-size: 14px;
+            }
+          }
+        }
+
+        .form_btn_wrp {
+          .btn_consultation_send_data {
+            p {
+              line-height: 34px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //header
+  .site_header {
+    ul {
+      li {
+        a {
+          padding-right: 10px;
+        }
+      }
+    }
+
+    .site_logo {
+      margin-left: 5%;
+
+      &:hover {
+        transform: translateY(60px) rotate(360deg) scale(3.5);
+      }
+    }
+  }
+
+  .telegramSection {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .telegramContent {
+      flex-wrap: no-wrap;
+      max-width: 100%;
+    }
+  }
+
+  .shedule {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .container {
+      .sheduleBox {
+        .sheduleContent {
+          height: 320px;
+        }
+      }
+    }
+  }
+
+  .timerSection {
+    margin-left: 20px;
+    margin-right: 20px;
+  }
+
+  .our_teachers_section {
+    .our_teachers {
+      padding: 20px;
+      background: none;
+      background-image: none;
+
+      .our_teachers_text_column {
+        max-width: 100%;
+        padding: 50px 0px;
+
+        .our_teachers_text_column_inner_wrp {
+          .related_links {
+            .our_teachers_link_wrp {
+              .our_teachers_link {
+                background-color: transparent;
+              }
+
+              .our_teachers_inner_link {
+                display: none;
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .related_links {
+    overflow: hidden;
+  }
+
+  .our_projects {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    // display: block;
+    .container {
+      flex-wrap: wrap;
+
+      .our_projects_text {
+        width: 100%;
+        max-width: 100%;
+        padding: 20px;
+        margin-bottom: 20px;
+        text-align: center;
+      }
+
+      .our_projects_vid {
+        width: 100%;
+        max-width: 100%;
+        display: flex;
+        justify-content: center;
+
+        .iframeBox {
+          display: flex;
+          justify-content: center;
+
+          iframe {
+            display: inline-block;
+            max-width: 100%;
+            margin: 0 auto;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 900px) {
+  .drop_modal_form {
+    padding: 20px;
+
+    .container {
+      form {
+        .labels {
+          display: block;
+
+          label {
+            max-width: 100%;
+
+            > input {
+              margin-bottom: 10px;
+              width: 100%;
+            }
+
+            textarea {
+              width: 100%;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .shedule {
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 50px;
+
+    .container {
+      .sheduleBox {
+        .sheduleContent {
+          height: 400px;
+
+          .contentBox {
+            .text {
+              padding: 0 20px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  //header
+  .site_header {
+    ul {
+      li {
+        a {
+          padding-right: 7px;
+          font-size: 16px;
+        }
+      }
+    }
+
+    .btn_consultation {
+      padding-left: 40px;
+      padding-right: 40px;
+    }
+
+    .site_logo {
+      margin-left: 0;
+
+      &:hover {
+        transform: translateY(40px) rotate(360deg) scale(3);
+      }
+    }
+  }
+
+  .telegramSection {
+    padding-right: 20px;
+    padding-left: 20px;
+
+    .telegramContent {
+      flex-wrap: wrap;
+
+      .textContent {
+        width: 100%;
+      }
+
+      .arrow {
+        align-self: flex-start;
+      }
+    }
+  }
+
+  footer {
+    padding: 20px;
+
+    .container {
+      display: block;
+
+      .copyright {
+        margin-bottom: 20px;
+
+        img {
+          margin: 0;
+        }
+
+        p {
+          display: none;
+        }
+      }
+
+      .phone_mail_wrap {
+        .first_line {
+          text-align: left;
+
+          .phone {
+            cursor: pointer;
+          }
+        }
+
+        .copyright_plus_insta {
+          display: flex;
+          align-items: center;
+          justify-content: space-between;
+
+          p {
+            display: block;
+          }
+
+          a {
+            img {
+              width: 40px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 700px) {
+  .site_header {
+    ul {
+      li {
+        a {
+          padding-right: 2px;
+          padding-left: 2px;
+        }
+      }
+    }
+
+    .btn_consultation {
+      p {
+        font-size: 15px;
+      }
+    }
+  }
+
+  .questions {
+    .questionBox {
+      > h3 {
+        font-size: 14px;
+      }
+      .questionH3 {
+        padding-right: 40px;
+
+        label {
+          &:before {
+            right: -20px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 600px) {
+  body {
+    padding-top: 40px;
+  }
+
+  .drop_modal_form {
+    top: 40px;
+
+    .container {
+      h3 {
+        margin-top: 30px;
+        font-size: 36px;
+        margin-bottom: 70px;
+      }
+
+      form {
+        .labels {
+          label {
+            > input {
+              line-height: 28px;
+              font-size: 14px;
+            }
+
+            textarea {
+              line-height: 28px;
+            }
+          }
+        }
+
+        .form_btn_wrp {
+          .btn_consultation_send_data {
+            margin-bottom: 30px;
+
+            p {
+              line-height: 28px;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .nav_bar {
+    display: block;
+    transition: all 0.6s ease;
+    position: fixed;
+    z-index: 900;
+    left: 0;
+    right: 0;
+    top: 40px;
+    transform: translateY(-100%);
+    opacity: 0;
+    visibility: hidden;
+
+    &.active {
+      transform: none;
+      opacity: 1;
+      visibility: visible;
+    }
+
+    li {
+      display: block;
+      margin-right: 0px;
+      border-bottom: 1px solid grey;
+      background-color: #fff;
+
+      a {
+        transition: all 0.3s ease;
+        color: #000;
+        padding: 10px;
+        padding-left: 10%;
+        display: block;
+
+        &:hover {
+          color: #00a8ff;
+        }
+      }
+    }
+  }
+
+  .site_header {
+    background-color: #fff;
+
+    ul {
+      display: none;
+    }
+
+    .btn_consultation {
+      display: none;
+    }
+
+    .site_logo {
+      margin-left: 5%;
+      height: 40px;
+      position: relative;
+      z-index: 600;
+
+      &:hover {
+        transform: translateY(20px) rotate(360deg) scale(2);
+      }
+    }
+
+    .om {
+      height: 40px;
+      display: block;
+    }
+
+    .click_menu_wrp {
+      outline: none;
+      cursor: pointer;
+      display: block;
+      margin-right: 5%;
+      position: relative;
+      width: 40px;
+      height: 40px;
+      user-select: none;
+
+      &.active {
+        .click_menu_img {
+          opacity: 0;
+          visibility: hidden;
+        }
+
+        .click_menu_img_close {
+          opacity: 1;
+          visibility: visible;
+        }
+      }
+
+      .click_menu_img {
+        position: absolute;
+        top: 7px;
+        opacity: 1;
+        visibility: visible;
+        width: 40px;
+        transition: all 0.9s ease;
+      }
+
+      .click_menu_img_close {
+        position: absolute;
+        top: 9px;
+        left: 7px;
+        transition: all 0.9s ease;
+        opacity: 0;
+        visibility: hidden;
+        width: 25px;
+      }
+    }
+  }
+
+  .shedule {
+    padding: 0 20px;
+    padding-top: 50px;
+    background-color: @skyBackgroundColor;
+
+    .container {
+      transform: translateX(0);
+      opacity: 1;
+      .sheduleBox {
+        .sheduleHeader {
+          li {
+            width: 150px;
+
+            &.backgroundSlide {
+              width: 150px;
+            }
+
+            &:nth-child(1).active ~ .backgroundSlide {
+              left: 0;
+            }
+
+            &:nth-child(2).active ~ .backgroundSlide {
+              left: 150px;
+            }
+
+            // &:nth-child(3).active ~ .backgroundSlide {
+            //   left: 180px;
+            // }
+          }
+        }
+
+        .sheduleContent {
+          height: 500px;
+
+          .contentBox {
+            .text {
+              padding: 0;
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .timerSection {
+    a {
+      max-width: 80%;
+    }
+  }
+
+  .container {
+    max-width: 100%;
+  }
+
+  .our_services_text_column {
+    max-width: 100%;
+  }
+
+  .gallery_section {
+    background-color: @skyBackgroundColor;
+    .container {
+      opacity: 1;
+    }
+  }
+  .our_services {
+    padding: 0px;
+    background-color: #000;
+
+    .container {
+      .our_services_text_column {
+        .our_services_text_column_inner_wrp {
+          h4 {
+            padding-left: 20px;
+          }
+
+          .read_more {
+            margin-bottom: 50px;
+            margin-left: 10px;
+          }
+
+          .related_links {
+            .our_services_link_wrp {
+              .our_services_link {
+                background-color: transparent;
+
+                .p_number {
+                  padding-left: 20px;
+                  padding-right: 10px;
+                  font-size: 14px;
+                }
+
+                .p_text {
+                  font-size: 14px;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+
+  .slider_container {
+    .wrp_text_appear {
+      left: 15%;
+
+      #text_appear_1 {
+        padding-left: 40px;
+
+        > span {
+          font-size: 38px;
+        }
+      }
+
+      #text_appear_2 {
+        padding-left: 13px;
+
+        > span {
+          font-size: 38px;
+        }
+      }
+
+      #text_appear_3 {
+        > span {
+          font-size: 38px;
+        }
+      }
+    }
+  }
+  .reloading {
+    background-color: @skyBackgroundColor;
+    .container {
+      .soulReloadingBlock {
+        transform: translateX(0);
+        opacity: 1;
+      }
+    }
+  }
+
+  .telegramSection {
+    .telegramContent {
+      transform: translateX(0);
+      opacity: 1;
+      .textContent {
+        text-align: center;
+      }
+
+      .arrow {
+        // max-width: 100px;
+        padding-right: 15px;
+      }
+
+      .telegramIcon {
+        max-width: 100px;
+      }
+    }
+  }
+
+  .our_projects {
+    .container {
+      transform: translateX(0);
+      opacity: 1;
+    }
+    .our_projects_text {
+      .btn_consultation {
+        padding-left: 20px;
+        padding-right: 20px;
+      }
+    }
+  }
+  .our_teachers_section {
+    .our_teachers {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .prices {
+    background-color: @skyBackgroundColor;
+    .container {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+  .questions {
+    opacity: 1;
+  }
+  body {
+    footer {
+      .container {
+        transform: translateY(0);
+        opacity: 1;
+        .phone_mail_wrap {
+          .first_line {
+            font-size: 30px;
+
+            .phone {
+              font-size: 30px;
+            }
+
+            .slash {
+              font-size: 30px;
+            }
+          }
+
+          .mail {
+            font-size: 18px;
+          }
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 350px) {
+  .telegramSection {
+    padding-left: 20px;
+    padding-right: 20px;
+
+    .telegramContent {
+      flex-wrap: wrap;
+
+      .arrow {
+        svg {
+          max-width: 50px;
+        }
+      }
+    }
+  }
+  .shedule {
+    .container {
+      .sheduleBox {
+        .sheduleHeader {
+          li {
+            width: 110px;
+
+            &.backgroundSlide {
+              width: 110px;
+            }
+
+            &:nth-child(1).active ~ .backgroundSlide {
+              left: 0;
+            }
+
+            &:nth-child(2).active ~ .backgroundSlide {
+              left: 110px;
+            }
+          }
+        }
+      }
+    }
+  }
+}
